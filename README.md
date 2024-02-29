@@ -48,8 +48,5 @@ and add their own gestures. Reduce the lag from the gestures to enable the user 
 5. Left Mouse Click: Point Right Hand Middle Finger down
 6. Right Mouse Click: Close Right Hand Thumb
 7. Jump: Move shoulders to top part of grid
-8. Crouch: Move shoulders to bottom part of grid
-
-
-
-. During the making of this project we learnt ways in which games take input, how to use landmarks on our body to provide input to the computer and 
+8. Crouch: Move shoulders to bottom part of grid.
+9. Camera rotation
