@@ -18,13 +18,10 @@ specifically for Minecraft.
 
 ---INSTALLATION-------
 1. Installing opencv-python and mediapipe
-
 pip install opencv-python
 pip install mediapipe
 
 2. Installing pyautogui and pydirectinput modules
-
-
 pip install pyautogui
 pip install pydirectinput
 
@@ -49,4 +46,6 @@ and add their own gestures. Reduce the lag from the gestures to enable the user 
 6. Right Mouse Click: Close Right Hand Thumb
 7. Jump: Move shoulders to top part of grid
 8. Crouch: Move shoulders to bottom part of grid.
-9. Camera rotation
+9. Camera rotation: right ring finger up (right hand open and palm facing forwards)
+10. Navigate through hotbar: left hand palm movement up or down
+11. un-pressing key: left hand fist
