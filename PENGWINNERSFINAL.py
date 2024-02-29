@@ -89,13 +89,9 @@ def sidebar_button_event1():
 
 
     # create slider and progressbar frame
-
     app.progressbar_1 = customtkinter.CTkProgressBar(app)
     app.progressbar_1.grid(row=5, column=1, columnspan=4, padx=(10, 10), pady=(10, 0), sticky="nsew")
 
-    # set default values
-    
-    
     app.progressbar_1.configure(mode="intermidiate")
     app.progressbar_1.start()
 
@@ -344,8 +340,8 @@ def minecraftgame():
                 if r_ring_tip_y<r_mid_mcp_y:
                     pag.moveTo(index_x,index_y,0.7)
                 
-                            
-                if l_mid_tip_y<l_mid_mcp_y:#palm forward  ...left palm open
+                #palm forward  ...left palm open            
+                if l_mid_tip_y<l_mid_mcp_y:
                     pd.keyDown('app.seg_button_1.get()')
                     
                 #for opening inventory...wankanda symbol
@@ -385,8 +381,9 @@ def minecraftgame():
                 #for crouch...crouching
                 if r_sh_y>300 and l_sh_y>300:
                     pd.press(app.combobox_2.get())
-                    
-                if l_mid_tip_y>l_mid_mcp_y:#un-pressing keys...left hand fist
+
+                #un-pressing keys...left hand fist
+                if l_mid_tip_y>l_mid_mcp_y:
                     pd.keyUp('w')
                     pd.keyUp('a')
                     pd.keyUp('d')
